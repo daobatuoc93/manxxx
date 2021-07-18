@@ -1,0 +1,10 @@
+/home/tdao0751/man7/sw/build/CMakeFiles/install/strip.dir
+/home/tdao0751/man7/sw/build/CMakeFiles/install/local.dir
+/home/tdao0751/man7/sw/build/CMakeFiles/install.dir
+/home/tdao0751/man7/sw/build/CMakeFiles/list_install_components.dir
+/home/tdao0751/man7/sw/build/CMakeFiles/shmcreate.dir
+/home/tdao0751/man7/sw/build/CMakeFiles/shmread.dir
+/home/tdao0751/man7/sw/build/CMakeFiles/shmwrite.dir
+/home/tdao0751/man7/sw/build/CMakeFiles/cpof.dir
+/home/tdao0751/man7/sw/build/CMakeFiles/edit_cache.dir
+/home/tdao0751/man7/sw/build/CMakeFiles/rebuild_cache.dir

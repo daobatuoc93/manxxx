@@ -1,0 +1,4 @@
+/usr/bin/cpof
+/usr/bin/shmread
+/usr/bin/shmcreate
+/usr/bin/shmwrite

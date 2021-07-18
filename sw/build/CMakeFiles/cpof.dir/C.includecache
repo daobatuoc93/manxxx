@@ -1,0 +1,42 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/tdao0751/man7/sw/fileIO/c4copyfile.c
+sys/stat.h
+-
+fcntl.h
+-
+../h/tlpi_hdr.h
+/home/tdao0751/man7/sw/h/tlpi_hdr.h
+
+/home/tdao0751/man7/sw/h/error_functions.h
+
+/home/tdao0751/man7/sw/h/get_num.h
+
+/home/tdao0751/man7/sw/h/tlpi_hdr.h
+sys/types.h
+-
+stdio.h
+-
+stdlib.h
+-
+unistd.h
+-
+errno.h
+-
+string.h
+-
+stdbool.h
+-
+get_num.h
+/home/tdao0751/man7/sw/h/get_num.h
+error_functions.h
+/home/tdao0751/man7/sw/h/error_functions.h
+sys/file.h
+-
+

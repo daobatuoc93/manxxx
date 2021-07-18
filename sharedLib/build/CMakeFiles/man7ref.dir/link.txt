@@ -1,0 +1,1 @@
+/usr/bin/cc -fPIC -O3 -DNDEBUG  -shared -Wl,-soname,libman7ref.so -o libman7ref.so CMakeFiles/man7ref.dir/src/errorfunc/error_functions.c.o CMakeFiles/man7ref.dir/src/getnum/get_num.c.o 

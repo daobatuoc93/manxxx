@@ -1,0 +1,1 @@
+/usr/lib/libman7ref.so

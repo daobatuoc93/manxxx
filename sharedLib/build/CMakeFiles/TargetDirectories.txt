@@ -1,0 +1,7 @@
+/home/tdao0751/man7/sharedLib/build/CMakeFiles/install/strip.dir
+/home/tdao0751/man7/sharedLib/build/CMakeFiles/edit_cache.dir
+/home/tdao0751/man7/sharedLib/build/CMakeFiles/man7ref.dir
+/home/tdao0751/man7/sharedLib/build/CMakeFiles/rebuild_cache.dir
+/home/tdao0751/man7/sharedLib/build/CMakeFiles/list_install_components.dir
+/home/tdao0751/man7/sharedLib/build/CMakeFiles/install/local.dir
+/home/tdao0751/man7/sharedLib/build/CMakeFiles/install.dir

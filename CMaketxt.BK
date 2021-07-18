@@ -1,0 +1,38 @@
+cmake_minimum_required(VERSION 2.8.9)
+project (paulProj)
+
+#For the shared library:
+set (PROJECT_LINK_LIBS libman7ref.so )
+set (OS_SW_DIR /home/tdao0751/man7/sw)
+link_directories( /home/tdao0751/man7/sharedLib/build )
+
+#For the static library:
+#set ( PROJECT_LINK_LIBS libtestStudent.a )
+#link_directories( ~/exploringBB/extras/cmake/studentlib_static/build )
+
+include_directories(${OS_SW_DIR}/h)
+
+
+#add new cpp here
+#SHM
+add_executable(shmread ${OS_SW_DIR}/sharedmem/shm_read/pshm_read.c)
+add_executable(shmcreate ${OS_SW_DIR}/sharedmem/shm_create/pshm_create.c)
+add_executable(shmwrite ${OS_SW_DIR}/sharedmem/shm_write/pshm_write.c)
+
+#FILEIO
+add_executable(cpof ${OS_SW_DIR}/fileIO/c4copyfile.c)
+
+
+#add target and flag here
+#SHM
+target_link_libraries(shmread ${PROJECT_LINK_LIBS} rt)
+target_link_libraries(shmcreate ${PROJECT_LINK_LIBS} rt)
+target_link_libraries(shmwrite ${PROJECT_LINK_LIBS} rt)
+
+#FILEIO
+target_link_libraries(cpof ${PROJECT_LINK_LIBS})
+
+
+
+#sudo make install
+install(TARGETS cpof shmread shmcreate shmwrite DESTINATION /usr/bin/)

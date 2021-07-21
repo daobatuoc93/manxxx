@@ -25,17 +25,7 @@ int main(int argc, char *argv[])
     char deviceMod[32];
 
     memset(deviceMod,0,sizeof(deviceMod));
-    
 
-    switch (expression)
-    {
-    case /* constant-expression */:
-        /* code */
-        break;
-    
-    default:
-        break;
-    }
 
     openFlags = O_CREAT | O_WRONLY | O_TRUNC;
     filePerms = S_IRUSR | S_IWUSR | S_IRGRP | S_IWGRP |

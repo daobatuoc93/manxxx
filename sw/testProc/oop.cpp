@@ -119,6 +119,7 @@ public:
         : m_red{red}, m_green{green}, m_blue{blue}, m_alpha{alpha}
     {
     }
+    
     void print()
     {
         cout << "r = " << static_cast<int>(m_red) << " g = " << static_cast<int>(m_green) << " b = " << static_cast<int>(m_blue) << " a = " << static_cast<int>(m_alpha) << endl;

@@ -1,1 +1,1 @@
-/usr/bin/cc -g  -rdynamic CMakeFiles/shmwrite.dir/sharedmem/shm_write/pshm_write.c.o  -o shmwrite  -L/home/tdao0751/man7/sharedLib/build -Wl,-rpath,/home/tdao0751/man7/sharedLib/build: -lman7ref -lrt 
+/usr/bin/cc -g  -rdynamic CMakeFiles/shmwrite.dir/sharedmem/shm_write/pshm_write.c.o  -o shmwrite  -L/home/tlinux/man7/manxxx/sharedLib/build -Wl,-rpath,/home/tlinux/man7/manxxx/sharedLib/build: -lman7ref -lrt 

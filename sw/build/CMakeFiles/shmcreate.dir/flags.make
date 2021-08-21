@@ -6,5 +6,5 @@ C_FLAGS = -g
 
 C_DEFINES = 
 
-C_INCLUDES = -I/home/tdao0751/man7/sw/h 
+C_INCLUDES = -I/home/tlinux/man7/manxxx/sw/h 
 

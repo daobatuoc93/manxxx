@@ -32,7 +32,7 @@ error_functions.h
 sys/file.h
 -
 
-/home/tdao0751/man7/sw/sharedmem/shm_read/pshm_read.c
+/home/tlinux/man7/manxxx/sw/sharedmem/shm_read/pshm_read.c
 fcntl.h
 -
 sys/fcntl.h
@@ -42,5 +42,5 @@ sys/mman.h
 sys/stat.h
 -
 tlpi_hdr.h
-/home/tdao0751/man7/sw/sharedmem/shm_read/tlpi_hdr.h
+/home/tlinux/man7/manxxx/sw/sharedmem/shm_read/tlpi_hdr.h
 

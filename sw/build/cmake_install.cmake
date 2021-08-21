@@ -1,4 +1,4 @@
-# Install script for directory: /home/tdao0751/man7/sw
+# Install script for directory: /home/tlinux/man7/manxxx/sw
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -52,12 +52,12 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/usr/bin" TYPE EXECUTABLE FILES "/home/tdao0751/man7/sw/build/cpof")
+file(INSTALL DESTINATION "/usr/bin" TYPE EXECUTABLE FILES "/home/tlinux/man7/manxxx/sw/build/cpof")
   if(EXISTS "$ENV{DESTDIR}/usr/bin/cpof" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}/usr/bin/cpof")
     file(RPATH_CHANGE
          FILE "$ENV{DESTDIR}/usr/bin/cpof"
-         OLD_RPATH "/home/tdao0751/man7/sharedLib/build:"
+         OLD_RPATH "/home/tlinux/man7/manxxx/sharedLib/build:"
          NEW_RPATH "")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}/usr/bin/cpof")
@@ -80,12 +80,12 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/usr/bin" TYPE EXECUTABLE FILES "/home/tdao0751/man7/sw/build/shmread")
+file(INSTALL DESTINATION "/usr/bin" TYPE EXECUTABLE FILES "/home/tlinux/man7/manxxx/sw/build/shmread")
   if(EXISTS "$ENV{DESTDIR}/usr/bin/shmread" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}/usr/bin/shmread")
     file(RPATH_CHANGE
          FILE "$ENV{DESTDIR}/usr/bin/shmread"
-         OLD_RPATH "/home/tdao0751/man7/sharedLib/build:"
+         OLD_RPATH "/home/tlinux/man7/manxxx/sharedLib/build:"
          NEW_RPATH "")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}/usr/bin/shmread")
@@ -108,12 +108,12 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/usr/bin" TYPE EXECUTABLE FILES "/home/tdao0751/man7/sw/build/shmcreate")
+file(INSTALL DESTINATION "/usr/bin" TYPE EXECUTABLE FILES "/home/tlinux/man7/manxxx/sw/build/shmcreate")
   if(EXISTS "$ENV{DESTDIR}/usr/bin/shmcreate" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}/usr/bin/shmcreate")
     file(RPATH_CHANGE
          FILE "$ENV{DESTDIR}/usr/bin/shmcreate"
-         OLD_RPATH "/home/tdao0751/man7/sharedLib/build:"
+         OLD_RPATH "/home/tlinux/man7/manxxx/sharedLib/build:"
          NEW_RPATH "")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}/usr/bin/shmcreate")
@@ -136,12 +136,12 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/usr/bin" TYPE EXECUTABLE FILES "/home/tdao0751/man7/sw/build/shmwrite")
+file(INSTALL DESTINATION "/usr/bin" TYPE EXECUTABLE FILES "/home/tlinux/man7/manxxx/sw/build/shmwrite")
   if(EXISTS "$ENV{DESTDIR}/usr/bin/shmwrite" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}/usr/bin/shmwrite")
     file(RPATH_CHANGE
          FILE "$ENV{DESTDIR}/usr/bin/shmwrite"
-         OLD_RPATH "/home/tdao0751/man7/sharedLib/build:"
+         OLD_RPATH "/home/tlinux/man7/manxxx/sharedLib/build:"
          NEW_RPATH "")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}/usr/bin/shmwrite")
@@ -157,5 +157,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/tdao0751/man7/sw/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/tlinux/man7/manxxx/sw/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

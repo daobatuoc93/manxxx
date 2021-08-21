@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "/home/tdao0751/man7/sw/sharedmem/shm_write/pshm_write.c" "/home/tdao0751/man7/sw/build/CMakeFiles/shmwrite.dir/sharedmem/shm_write/pshm_write.c.o"
+  "/home/tlinux/man7/manxxx/sw/sharedmem/shm_write/pshm_write.c" "/home/tlinux/man7/manxxx/sw/build/CMakeFiles/shmwrite.dir/sharedmem/shm_write/pshm_write.c.o"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 

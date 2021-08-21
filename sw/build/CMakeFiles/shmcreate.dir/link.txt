@@ -1,1 +1,1 @@
-/usr/bin/cc -g  -rdynamic CMakeFiles/shmcreate.dir/sharedmem/shm_create/pshm_create.c.o  -o shmcreate  -L/home/tdao0751/man7/sharedLib/build -Wl,-rpath,/home/tdao0751/man7/sharedLib/build: -lman7ref -lrt 
+/usr/bin/cc -g  -rdynamic CMakeFiles/shmcreate.dir/sharedmem/shm_create/pshm_create.c.o  -o shmcreate  -L/home/tlinux/man7/manxxx/sharedLib/build -Wl,-rpath,/home/tlinux/man7/manxxx/sharedLib/build: -lman7ref -lrt 

@@ -3,8 +3,8 @@ project (paulProj)
 
 #For the shared library:
 set (PROJECT_LINK_LIBS libman7ref.so )
-set (OS_SW_DIR /home/tdao0751/man7/sw)
-link_directories( /home/tdao0751/man7/sharedLib/build )
+set (OS_SW_DIR /home/tlinux/man7/manxxx/sw)
+link_directories( /home/tlinux/man7/manxxx/sharedLib/build )
 
 #For the static library:
 #set ( PROJECT_LINK_LIBS libtestStudent.a )

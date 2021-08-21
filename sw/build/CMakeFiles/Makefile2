@@ -54,10 +54,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/tdao0751/man7/sw
+CMAKE_SOURCE_DIR = /home/tlinux/man7/manxxx/sw
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/tdao0751/man7/sw/build
+CMAKE_BINARY_DIR = /home/tlinux/man7/manxxx/sw/build
 
 #=============================================================================
 # Target rules for target CMakeFiles/shmcreate.dir
@@ -66,7 +66,7 @@ CMAKE_BINARY_DIR = /home/tdao0751/man7/sw/build
 CMakeFiles/shmcreate.dir/all:
 	$(MAKE) -f CMakeFiles/shmcreate.dir/build.make CMakeFiles/shmcreate.dir/depend
 	$(MAKE) -f CMakeFiles/shmcreate.dir/build.make CMakeFiles/shmcreate.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/tdao0751/man7/sw/build/CMakeFiles --progress-num=3,4 "Built target shmcreate"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/tlinux/man7/manxxx/sw/build/CMakeFiles --progress-num=3,4 "Built target shmcreate"
 .PHONY : CMakeFiles/shmcreate.dir/all
 
 # Include target in all.
@@ -76,9 +76,9 @@ all: CMakeFiles/shmcreate.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/shmcreate.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/tdao0751/man7/sw/build/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/tlinux/man7/manxxx/sw/build/CMakeFiles 2
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/shmcreate.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/tdao0751/man7/sw/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/tlinux/man7/manxxx/sw/build/CMakeFiles 0
 .PHONY : CMakeFiles/shmcreate.dir/rule
 
 # Convenience name for target.
@@ -103,7 +103,7 @@ clean: CMakeFiles/shmcreate.dir/clean
 CMakeFiles/shmread.dir/all:
 	$(MAKE) -f CMakeFiles/shmread.dir/build.make CMakeFiles/shmread.dir/depend
 	$(MAKE) -f CMakeFiles/shmread.dir/build.make CMakeFiles/shmread.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/tdao0751/man7/sw/build/CMakeFiles --progress-num=5,6 "Built target shmread"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/tlinux/man7/manxxx/sw/build/CMakeFiles --progress-num=5,6 "Built target shmread"
 .PHONY : CMakeFiles/shmread.dir/all
 
 # Include target in all.
@@ -113,9 +113,9 @@ all: CMakeFiles/shmread.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/shmread.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/tdao0751/man7/sw/build/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/tlinux/man7/manxxx/sw/build/CMakeFiles 2
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/shmread.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/tdao0751/man7/sw/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/tlinux/man7/manxxx/sw/build/CMakeFiles 0
 .PHONY : CMakeFiles/shmread.dir/rule
 
 # Convenience name for target.
@@ -140,7 +140,7 @@ clean: CMakeFiles/shmread.dir/clean
 CMakeFiles/shmwrite.dir/all:
 	$(MAKE) -f CMakeFiles/shmwrite.dir/build.make CMakeFiles/shmwrite.dir/depend
 	$(MAKE) -f CMakeFiles/shmwrite.dir/build.make CMakeFiles/shmwrite.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/tdao0751/man7/sw/build/CMakeFiles --progress-num=7,8 "Built target shmwrite"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/tlinux/man7/manxxx/sw/build/CMakeFiles --progress-num=7,8 "Built target shmwrite"
 .PHONY : CMakeFiles/shmwrite.dir/all
 
 # Include target in all.
@@ -150,9 +150,9 @@ all: CMakeFiles/shmwrite.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/shmwrite.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/tdao0751/man7/sw/build/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/tlinux/man7/manxxx/sw/build/CMakeFiles 2
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/shmwrite.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/tdao0751/man7/sw/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/tlinux/man7/manxxx/sw/build/CMakeFiles 0
 .PHONY : CMakeFiles/shmwrite.dir/rule
 
 # Convenience name for target.
@@ -177,7 +177,7 @@ clean: CMakeFiles/shmwrite.dir/clean
 CMakeFiles/cpof.dir/all:
 	$(MAKE) -f CMakeFiles/cpof.dir/build.make CMakeFiles/cpof.dir/depend
 	$(MAKE) -f CMakeFiles/cpof.dir/build.make CMakeFiles/cpof.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/tdao0751/man7/sw/build/CMakeFiles --progress-num=1,2 "Built target cpof"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/tlinux/man7/manxxx/sw/build/CMakeFiles --progress-num=1,2 "Built target cpof"
 .PHONY : CMakeFiles/cpof.dir/all
 
 # Include target in all.
@@ -187,9 +187,9 @@ all: CMakeFiles/cpof.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/cpof.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/tdao0751/man7/sw/build/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/tlinux/man7/manxxx/sw/build/CMakeFiles 2
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/cpof.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/tdao0751/man7/sw/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/tlinux/man7/manxxx/sw/build/CMakeFiles 0
 .PHONY : CMakeFiles/cpof.dir/rule
 
 # Convenience name for target.

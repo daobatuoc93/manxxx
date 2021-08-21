@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "/home/tdao0751/man7/sw/fileIO/c4copyfile.c" "/home/tdao0751/man7/sw/build/CMakeFiles/cpof.dir/fileIO/c4copyfile.c.o"
+  "/home/tlinux/man7/manxxx/sw/fileIO/c4copyfile.c" "/home/tlinux/man7/manxxx/sw/build/CMakeFiles/cpof.dir/fileIO/c4copyfile.c.o"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 

@@ -32,11 +32,11 @@ error_functions.h
 sys/file.h
 -
 
-/home/tdao0751/man7/sw/sharedmem/shm_write/pshm_write.c
+/home/tlinux/man7/manxxx/sw/sharedmem/shm_write/pshm_write.c
 fcntl.h
 -
 sys/mman.h
 -
 tlpi_hdr.h
-/home/tdao0751/man7/sw/sharedmem/shm_write/tlpi_hdr.h
+/home/tlinux/man7/manxxx/sw/sharedmem/shm_write/tlpi_hdr.h
 

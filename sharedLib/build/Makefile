@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/tdao0751/man7/sharedLib
+CMAKE_SOURCE_DIR = /home/tlinux/man7/manxxx/sharedLib
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/tdao0751/man7/sharedLib/build
+CMAKE_BINARY_DIR = /home/tlinux/man7/manxxx/sharedLib/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -126,9 +126,9 @@ install/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/tdao0751/man7/sharedLib/build/CMakeFiles /home/tdao0751/man7/sharedLib/build/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/tlinux/man7/manxxx/sharedLib/build/CMakeFiles /home/tlinux/man7/manxxx/sharedLib/build/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/tdao0751/man7/sharedLib/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/tlinux/man7/manxxx/sharedLib/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -169,32 +169,32 @@ man7ref/fast:
 	$(MAKE) -f CMakeFiles/man7ref.dir/build.make CMakeFiles/man7ref.dir/build
 .PHONY : man7ref/fast
 
-src/errorfunc/error_functions.o: src/errorfunc/error_functions.c.o
+src/getnum/error_functions.o: src/getnum/error_functions.c.o
 
-.PHONY : src/errorfunc/error_functions.o
+.PHONY : src/getnum/error_functions.o
 
 # target to build an object file
-src/errorfunc/error_functions.c.o:
-	$(MAKE) -f CMakeFiles/man7ref.dir/build.make CMakeFiles/man7ref.dir/src/errorfunc/error_functions.c.o
-.PHONY : src/errorfunc/error_functions.c.o
+src/getnum/error_functions.c.o:
+	$(MAKE) -f CMakeFiles/man7ref.dir/build.make CMakeFiles/man7ref.dir/src/getnum/error_functions.c.o
+.PHONY : src/getnum/error_functions.c.o
 
-src/errorfunc/error_functions.i: src/errorfunc/error_functions.c.i
+src/getnum/error_functions.i: src/getnum/error_functions.c.i
 
-.PHONY : src/errorfunc/error_functions.i
+.PHONY : src/getnum/error_functions.i
 
 # target to preprocess a source file
-src/errorfunc/error_functions.c.i:
-	$(MAKE) -f CMakeFiles/man7ref.dir/build.make CMakeFiles/man7ref.dir/src/errorfunc/error_functions.c.i
-.PHONY : src/errorfunc/error_functions.c.i
+src/getnum/error_functions.c.i:
+	$(MAKE) -f CMakeFiles/man7ref.dir/build.make CMakeFiles/man7ref.dir/src/getnum/error_functions.c.i
+.PHONY : src/getnum/error_functions.c.i
 
-src/errorfunc/error_functions.s: src/errorfunc/error_functions.c.s
+src/getnum/error_functions.s: src/getnum/error_functions.c.s
 
-.PHONY : src/errorfunc/error_functions.s
+.PHONY : src/getnum/error_functions.s
 
 # target to generate assembly for a file
-src/errorfunc/error_functions.c.s:
-	$(MAKE) -f CMakeFiles/man7ref.dir/build.make CMakeFiles/man7ref.dir/src/errorfunc/error_functions.c.s
-.PHONY : src/errorfunc/error_functions.c.s
+src/getnum/error_functions.c.s:
+	$(MAKE) -f CMakeFiles/man7ref.dir/build.make CMakeFiles/man7ref.dir/src/getnum/error_functions.c.s
+.PHONY : src/getnum/error_functions.c.s
 
 src/getnum/get_num.o: src/getnum/get_num.c.o
 
@@ -236,9 +236,9 @@ help:
 	@echo "... list_install_components"
 	@echo "... install/local"
 	@echo "... install"
-	@echo "... src/errorfunc/error_functions.o"
-	@echo "... src/errorfunc/error_functions.i"
-	@echo "... src/errorfunc/error_functions.s"
+	@echo "... src/getnum/error_functions.o"
+	@echo "... src/getnum/error_functions.i"
+	@echo "... src/getnum/error_functions.s"
 	@echo "... src/getnum/get_num.o"
 	@echo "... src/getnum/get_num.i"
 	@echo "... src/getnum/get_num.s"

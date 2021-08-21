@@ -6,17 +6,19 @@
 
 #IncludeRegexTransform: 
 
-/home/tdao0751/man7/sharedLib/src/errorfunc/error_functions.c
+/home/tlinux/man7/manxxx/sharedLib/src/getnum/ename.c.inc
+
+/home/tlinux/man7/manxxx/sharedLib/src/getnum/error_functions.c
 stdarg.h
 -
 error_functions.h
-/home/tdao0751/man7/sharedLib/src/errorfunc/error_functions.h
+/home/tlinux/man7/manxxx/sharedLib/src/getnum/error_functions.h
 tlpi_hdr.h
-/home/tdao0751/man7/sharedLib/src/errorfunc/tlpi_hdr.h
+/home/tlinux/man7/manxxx/sharedLib/src/getnum/tlpi_hdr.h
 ename.c.inc
-/home/tdao0751/man7/sharedLib/src/errorfunc/ename.c.inc
+/home/tlinux/man7/manxxx/sharedLib/src/getnum/ename.c.inc
 
-/home/tdao0751/man7/sharedLib/src/getnum/get_num.c
+/home/tlinux/man7/manxxx/sharedLib/src/getnum/get_num.c
 stdio.h
 -
 stdlib.h
@@ -28,15 +30,13 @@ limits.h
 errno.h
 -
 get_num.h
-/home/tdao0751/man7/sharedLib/src/getnum/get_num.h
+/home/tlinux/man7/manxxx/sharedLib/src/getnum/get_num.h
 
-/home/tdao0751/man7/sw/h/ename.c.inc
+/home/tlinux/man7/manxxx/sw/h/error_functions.h
 
-/home/tdao0751/man7/sw/h/error_functions.h
+/home/tlinux/man7/manxxx/sw/h/get_num.h
 
-/home/tdao0751/man7/sw/h/get_num.h
-
-/home/tdao0751/man7/sw/h/tlpi_hdr.h
+/home/tlinux/man7/manxxx/sw/h/tlpi_hdr.h
 sys/types.h
 -
 stdio.h
@@ -52,9 +52,9 @@ string.h
 stdbool.h
 -
 get_num.h
-/home/tdao0751/man7/sw/h/get_num.h
+/home/tlinux/man7/manxxx/sw/h/get_num.h
 error_functions.h
-/home/tdao0751/man7/sw/h/error_functions.h
+/home/tlinux/man7/manxxx/sw/h/error_functions.h
 sys/file.h
 -
 
